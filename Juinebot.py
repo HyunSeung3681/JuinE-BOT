@@ -3,6 +3,7 @@ import asyncio
 import os
 
 app = discord.Client()
+Bot = koreanbots.Client(app, 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NTE3ODQwMjg2NDc1ODgwNiIsImlhdCI6MTU5MDQwMzkzMCwiZXhwIjoxNjIxOTYxNTMwfQ.cYEZl6OMmpJO_RzGuOeARLg7ZnEM2ToPFDvf7akKjWI3-0s0B8dW6bKCyEO9rKpZVZ7CQwdJwYB7og_HZ_Id45usaxq1maHm22Kcv_-jmuuzuhIJ_5IpTw0_SQp330lhU_PCgz8FxGFW56ZnxX1mrVbg8SefO8R4mfh2LARBHas')
 
 @app.event
 async def on_ready():
