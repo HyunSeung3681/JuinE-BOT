@@ -27,6 +27,8 @@ async def on_message(message) :
             await message.channel.send("현승 | HyunSeung#3681")
         else:
             await message.channel.send("죄송하지만 원더님만 사용할 수 있게 쮜뉘님이 설정해놓으셨어요... 현승 | HyunSeung#3681로 DM을 주시면 최대한 빨리 해놓을겁니다!")
+    if message.content == "쮜뉘야":
+        await message.channel.send("네?")
 
 access_token=os.environ["BOT_TOKEN"]
 app.run(access_token)
