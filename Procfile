@@ -1,1 +1,1 @@
-worker: python JuinE-BOT.py
+worker: python JuinEBOT.py
