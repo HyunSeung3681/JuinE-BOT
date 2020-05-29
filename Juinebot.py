@@ -21,6 +21,7 @@ async def on_message(message) :
     if message.author.bot:
         return None
     if message.content == "쮜뉘야 도움":
+        embed = discord.Embed(color=0xff00, title="쮜뉘봇 도움말", description="", timestamp=message.created_at)
         await message.channel.send("아직 만들고 있어요... 뚝딱뚝딱")
     if message.content == "쮜뉘야 hellothisisverification":
         if message.author.id == "285185716240252929":
